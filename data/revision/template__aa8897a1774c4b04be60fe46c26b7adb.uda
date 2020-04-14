@@ -1,7 +1,7 @@
 {
-  "File": "umb://template-file/Home.cshtml",
+  "File": "umb://template-file/Blogpost.cshtml",
   "Master": "umb://template/ba2f16dd5d6149f6af26348be7c09bd9",
-  "Udi": "umb://template/59d10e41fb7744a2b9df3c719e81ad2b",
+  "Udi": "umb://template/aa8897a1774c4b04be60fe46c26b7adb",
   "Dependencies": [
     {
       "Udi": "umb://template/ba2f16dd5d6149f6af26348be7c09bd9",
@@ -9,13 +9,13 @@
       "Mode": 0
     },
     {
-      "Udi": "umb://template-file/Home.cshtml",
+      "Udi": "umb://template-file/Blogpost.cshtml",
       "Ordering": true,
       "Mode": 0
     }
   ],
-  "Name": "Home",
-  "Alias": "Home",
+  "Name": "Blogpost",
+  "Alias": "Blogpost",
   "__type": "Umbraco.Deploy,Umbraco.Deploy.Artifacts.TemplateArtifact",
   "__version": "3.4.2"
 }

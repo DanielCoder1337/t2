@@ -1,7 +1,7 @@
 {
-  "File": "umb://template-file/Home.cshtml",
+  "File": "umb://template-file/Product.cshtml",
   "Master": "umb://template/ba2f16dd5d6149f6af26348be7c09bd9",
-  "Udi": "umb://template/59d10e41fb7744a2b9df3c719e81ad2b",
+  "Udi": "umb://template/8ae1e7efcabc4a34951f8666cd013fd4",
   "Dependencies": [
     {
       "Udi": "umb://template/ba2f16dd5d6149f6af26348be7c09bd9",
@@ -9,13 +9,13 @@
       "Mode": 0
     },
     {
-      "Udi": "umb://template-file/Home.cshtml",
+      "Udi": "umb://template-file/Product.cshtml",
       "Ordering": true,
       "Mode": 0
     }
   ],
-  "Name": "Home",
-  "Alias": "Home",
+  "Name": "Product",
+  "Alias": "Product",
   "__type": "Umbraco.Deploy,Umbraco.Deploy.Artifacts.TemplateArtifact",
   "__version": "3.4.2"
 }
