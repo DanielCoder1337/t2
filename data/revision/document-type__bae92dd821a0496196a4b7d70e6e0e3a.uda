@@ -3,20 +3,148 @@
   "AllowedTemplates": [
     "umb://template/59d10e41fb7744a2b9df3c719e81ad2b"
   ],
-  "Icon": "icon-document color-blue-grey",
+  "Icon": "icon-home color-black",
   "Thumbnail": "folder.png",
   "Description": null,
   "IsContainer": false,
   "Permissions": {
     "AllowVaryingByCulture": false,
     "AllowVaryingBySegment": false,
-    "AllowedAtRoot": false,
+    "AllowedAtRoot": true,
     "IsElementType": false,
-    "AllowedChildContentTypes": []
+    "AllowedChildContentTypes": [
+      "umb://document-type/0b0fed85ed11479ebd7377ee9ba93d3c",
+      "umb://document-type/2804144402ec4534b07256bb8bacf281",
+      "umb://document-type/5852d1f706ed44b0b3c589d153b354cc",
+      "umb://document-type/bfcf83f0c3f24279b5c8229d88e2382e",
+      "umb://document-type/f388012613e748c5a79436d1ca900544"
+    ]
   },
   "Parent": null,
   "CompositionContentTypes": [],
   "PropertyGroups": [
+    {
+      "Key": "45eec62d-7eef-4f5f-a2a9-05e23403e180",
+      "Name": "Hero",
+      "SortOrder": 0,
+      "PropertyTypes": [
+        {
+          "Key": "42ec839d-e752-46d2-9d8d-e63da2db6ed4",
+          "Alias": "heroDescription",
+          "DataType": "umb://data-type/c6bac0dd4ab945b18e30e4b619ee5da3",
+          "Description": null,
+          "Mandatory": true,
+          "Name": "Description",
+          "SortOrder": 1,
+          "Validation": null,
+          "VariesByCulture": false,
+          "VariesBySegment": false
+        },
+        {
+          "Key": "4586a6af-66fe-43e3-85a9-5528782d89d2",
+          "Alias": "heroCTACaption",
+          "DataType": "umb://data-type/0cc0eba1996042c9bf9b60e150b429ae",
+          "Description": "The caption on the button",
+          "Mandatory": true,
+          "Name": "Call To Action Caption",
+          "SortOrder": 2,
+          "Validation": null,
+          "VariesByCulture": false,
+          "VariesBySegment": false
+        },
+        {
+          "Key": "80ef736c-03d5-49af-a061-68a4d8da5962",
+          "Alias": "heroHeader",
+          "DataType": "umb://data-type/0cc0eba1996042c9bf9b60e150b429ae",
+          "Description": "This is the main headline for the hero area on the Homepage",
+          "Mandatory": true,
+          "Name": "Header",
+          "SortOrder": 0,
+          "Validation": null,
+          "VariesByCulture": false,
+          "VariesBySegment": false
+        },
+        {
+          "Key": "cf780807-cecb-416f-8ccd-4cc1695d44be",
+          "Alias": "HeroCtalink",
+          "DataType": "umb://data-type/3ece86aa61ad45d5b1dd8f02f25df949",
+          "Description": null,
+          "Mandatory": true,
+          "Name": "Call To Action Link",
+          "SortOrder": 3,
+          "Validation": null,
+          "VariesByCulture": false,
+          "VariesBySegment": false
+        }
+      ]
+    },
+    {
+      "Key": "795b33d3-75bc-4aa6-88c4-6753cde678bd",
+      "Name": "Footer",
+      "SortOrder": 2,
+      "PropertyTypes": [
+        {
+          "Key": "249892f9-1f68-415a-9009-7359dd5d2af2",
+          "Alias": "footerAddress",
+          "DataType": "umb://data-type/0cc0eba1996042c9bf9b60e150b429ae",
+          "Description": null,
+          "Mandatory": true,
+          "Name": "Address",
+          "SortOrder": 4,
+          "Validation": null,
+          "VariesByCulture": false,
+          "VariesBySegment": false
+        },
+        {
+          "Key": "3f56f73e-51da-4197-8953-fe51e72aa06d",
+          "Alias": "FooterCtalink",
+          "DataType": "umb://data-type/3ece86aa61ad45d5b1dd8f02f25df949",
+          "Description": null,
+          "Mandatory": true,
+          "Name": "Call To Action Link",
+          "SortOrder": 3,
+          "Validation": null,
+          "VariesByCulture": false,
+          "VariesBySegment": false
+        },
+        {
+          "Key": "8f61c706-4f47-4345-a222-68cf06f5f68d",
+          "Alias": "footerDescription",
+          "DataType": "umb://data-type/c6bac0dd4ab945b18e30e4b619ee5da3",
+          "Description": null,
+          "Mandatory": false,
+          "Name": "Description",
+          "SortOrder": 1,
+          "Validation": null,
+          "VariesByCulture": false,
+          "VariesBySegment": false
+        },
+        {
+          "Key": "8f842905-b637-497e-a2b0-12a9e3046c10",
+          "Alias": "footerCTACaption",
+          "DataType": "umb://data-type/0cc0eba1996042c9bf9b60e150b429ae",
+          "Description": "Caption on the Call To Action Button",
+          "Mandatory": false,
+          "Name": "Call To Action Caption",
+          "SortOrder": 2,
+          "Validation": null,
+          "VariesByCulture": false,
+          "VariesBySegment": false
+        },
+        {
+          "Key": "a08f53ef-6854-4944-93ee-5c4ef7421da0",
+          "Alias": "footerHeader",
+          "DataType": "umb://data-type/0cc0eba1996042c9bf9b60e150b429ae",
+          "Description": null,
+          "Mandatory": false,
+          "Name": "Header",
+          "SortOrder": 0,
+          "Validation": null,
+          "VariesByCulture": false,
+          "VariesBySegment": false
+        }
+      ]
+    },
     {
       "Key": "7b25b1ae-821d-48cd-b836-56141a8fb561",
       "Name": "Hello World",
@@ -35,14 +163,155 @@
           "VariesBySegment": false
         }
       ]
+    },
+    {
+      "Key": "d1621d2c-a51e-4683-90cf-cd9cdd15d8f8",
+      "Name": "Design",
+      "SortOrder": 3,
+      "PropertyTypes": [
+        {
+          "Key": "5fb44389-0250-49a4-a556-ff87db000efd",
+          "Alias": "colorTheme",
+          "DataType": "umb://data-type/71548df5836c41f896ac5b98fe5e2e19",
+          "Description": "",
+          "Mandatory": true,
+          "Name": "Color Theme",
+          "SortOrder": 2,
+          "Validation": null,
+          "VariesByCulture": false,
+          "VariesBySegment": false
+        },
+        {
+          "Key": "94efeba2-07c5-4266-bc99-0af5d67cd951",
+          "Alias": "HeroBackgroundImage",
+          "DataType": "umb://data-type/135d60e064d949edab08893c9ba44ae5",
+          "Description": "Spice up the homepage by adding a beautiful photo that relates to your business",
+          "Mandatory": true,
+          "Name": "Hero Background",
+          "SortOrder": 0,
+          "Validation": null,
+          "VariesByCulture": false,
+          "VariesBySegment": false
+        },
+        {
+          "Key": "c7d6a7b2-f3e9-42fb-9e2b-215c5d97dee1",
+          "Alias": "sitename",
+          "DataType": "umb://data-type/0cc0eba1996042c9bf9b60e150b429ae",
+          "Description": "Used on the homepage as well as the title and social cards",
+          "Mandatory": true,
+          "Name": "Sitename",
+          "SortOrder": 3,
+          "Validation": null,
+          "VariesByCulture": false,
+          "VariesBySegment": false
+        },
+        {
+          "Key": "eb485479-bf9f-4960-a949-a80d7dbacb36",
+          "Alias": "font",
+          "DataType": "umb://data-type/fff3c3603f9045b3a554e29ca72cdce4",
+          "Description": "",
+          "Mandatory": true,
+          "Name": "Font",
+          "SortOrder": 1,
+          "Validation": null,
+          "VariesByCulture": false,
+          "VariesBySegment": false
+        },
+        {
+          "Key": "fe7366ce-4d41-4ebe-9854-9373e9f904a1",
+          "Alias": "SiteLogo",
+          "DataType": "umb://data-type/135d60e064d949edab08893c9ba44ae5",
+          "Description": "Optional. If you add a logo it'll be used in the upper left corner instead of the site name. Make sure to use a transparent logo for best results",
+          "Mandatory": false,
+          "Name": "Logo",
+          "SortOrder": 4,
+          "Validation": null,
+          "VariesByCulture": false,
+          "VariesBySegment": false
+        }
+      ]
+    },
+    {
+      "Key": "f4612a1b-9504-420c-a60d-c944b70f2642",
+      "Name": "Content",
+      "SortOrder": 1,
+      "PropertyTypes": [
+        {
+          "Key": "4a9b0285-a036-4368-acf8-4a1307dcbc8b",
+          "Alias": "bodyText",
+          "DataType": "umb://data-type/34a7f8f5a84e439b9322466ff7ed8866",
+          "Description": null,
+          "Mandatory": false,
+          "Name": "Content",
+          "SortOrder": 0,
+          "Validation": null,
+          "VariesByCulture": false,
+          "VariesBySegment": false
+        }
+      ]
     }
   ],
   "PropertyTypes": [],
   "Udi": "umb://document-type/bae92dd821a0496196a4b7d70e6e0e3a",
   "Dependencies": [
     {
+      "Udi": "umb://data-type/0cc0eba1996042c9bf9b60e150b429ae",
+      "Ordering": true,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://data-type/135d60e064d949edab08893c9ba44ae5",
+      "Ordering": true,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://data-type/34a7f8f5a84e439b9322466ff7ed8866",
+      "Ordering": true,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://data-type/3ece86aa61ad45d5b1dd8f02f25df949",
+      "Ordering": true,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://data-type/71548df5836c41f896ac5b98fe5e2e19",
+      "Ordering": true,
+      "Mode": 0
+    },
+    {
       "Udi": "umb://data-type/c6bac0dd4ab945b18e30e4b619ee5da3",
       "Ordering": true,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://data-type/fff3c3603f9045b3a554e29ca72cdce4",
+      "Ordering": true,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://document-type/0b0fed85ed11479ebd7377ee9ba93d3c",
+      "Ordering": false,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://document-type/2804144402ec4534b07256bb8bacf281",
+      "Ordering": false,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://document-type/5852d1f706ed44b0b3c589d153b354cc",
+      "Ordering": false,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://document-type/bfcf83f0c3f24279b5c8229d88e2382e",
+      "Ordering": false,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://document-type/f388012613e748c5a79436d1ca900544",
+      "Ordering": false,
       "Mode": 0
     },
     {

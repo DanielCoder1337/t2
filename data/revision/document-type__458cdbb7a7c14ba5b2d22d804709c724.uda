@@ -1,0 +1,154 @@
+{
+  "DefaultTemplate": "umb://template/0b22b7e9726c4ddb8285c77736542d0a",
+  "AllowedTemplates": [
+    "umb://template/0b22b7e9726c4ddb8285c77736542d0a"
+  ],
+  "Icon": "icon-user-female color-black",
+  "Thumbnail": "folder.png",
+  "Description": null,
+  "IsContainer": false,
+  "Permissions": {
+    "AllowVaryingByCulture": false,
+    "AllowVaryingBySegment": false,
+    "AllowedAtRoot": false,
+    "IsElementType": false,
+    "AllowedChildContentTypes": []
+  },
+  "Parent": null,
+  "CompositionContentTypes": [
+    "umb://document-type/7fd2972c35674c908de8b69b9c5cfd06"
+  ],
+  "PropertyGroups": [
+    {
+      "Key": "10b8e9b6-d4bf-4f87-a5dd-faed6b8a7e89",
+      "Name": "Details",
+      "SortOrder": 0,
+      "PropertyTypes": [
+        {
+          "Key": "0bcae3f3-462b-4db4-99e0-7001f2cc54d6",
+          "Alias": "photo",
+          "DataType": "umb://data-type/e26a8d91a9d7475bbc3b2a09f4743754",
+          "Description": null,
+          "Mandatory": false,
+          "Name": "Photo",
+          "SortOrder": 0,
+          "Validation": null,
+          "VariesByCulture": false,
+          "VariesBySegment": false
+        },
+        {
+          "Key": "e0395bc9-bc60-44f6-902d-c2df5596b1d2",
+          "Alias": "email",
+          "DataType": "umb://data-type/0cc0eba1996042c9bf9b60e150b429ae",
+          "Description": null,
+          "Mandatory": false,
+          "Name": "Email",
+          "SortOrder": 2,
+          "Validation": null,
+          "VariesByCulture": false,
+          "VariesBySegment": false
+        },
+        {
+          "Key": "f539d613-8b4c-4b98-9633-73efc2e878f2",
+          "Alias": "department",
+          "DataType": "umb://data-type/b58c153091c94c83aa35032aca0f7b89",
+          "Description": null,
+          "Mandatory": false,
+          "Name": "Department",
+          "SortOrder": 1,
+          "Validation": null,
+          "VariesByCulture": false,
+          "VariesBySegment": false
+        }
+      ]
+    },
+    {
+      "Key": "a71dde29-c704-468b-b2e1-e3aac219f0de",
+      "Name": "Social",
+      "SortOrder": 0,
+      "PropertyTypes": [
+        {
+          "Key": "42ce5e83-24e9-4e69-aed8-f2f224d5b7e2",
+          "Alias": "twitterUsername",
+          "DataType": "umb://data-type/0cc0eba1996042c9bf9b60e150b429ae",
+          "Description": null,
+          "Mandatory": false,
+          "Name": "Twitter username",
+          "SortOrder": 0,
+          "Validation": null,
+          "VariesByCulture": false,
+          "VariesBySegment": false
+        },
+        {
+          "Key": "7a9f24c7-be37-4c37-92c8-79fd1512bdee",
+          "Alias": "facebookUsername",
+          "DataType": "umb://data-type/0cc0eba1996042c9bf9b60e150b429ae",
+          "Description": null,
+          "Mandatory": false,
+          "Name": "Facebook username",
+          "SortOrder": 1,
+          "Validation": null,
+          "VariesByCulture": false,
+          "VariesBySegment": false
+        },
+        {
+          "Key": "c606b3b9-77fb-458a-b860-d28711c3539f",
+          "Alias": "linkedInUsername",
+          "DataType": "umb://data-type/0cc0eba1996042c9bf9b60e150b429ae",
+          "Description": null,
+          "Mandatory": false,
+          "Name": "LinkedIn username",
+          "SortOrder": 2,
+          "Validation": null,
+          "VariesByCulture": false,
+          "VariesBySegment": false
+        },
+        {
+          "Key": "ce8c1195-890a-4d27-9bd8-196ec5d1e1a8",
+          "Alias": "instagramUsername",
+          "DataType": "umb://data-type/0cc0eba1996042c9bf9b60e150b429ae",
+          "Description": null,
+          "Mandatory": false,
+          "Name": "Instagram Username",
+          "SortOrder": 3,
+          "Validation": null,
+          "VariesByCulture": false,
+          "VariesBySegment": false
+        }
+      ]
+    }
+  ],
+  "PropertyTypes": [],
+  "Udi": "umb://document-type/458cdbb7a7c14ba5b2d22d804709c724",
+  "Dependencies": [
+    {
+      "Udi": "umb://data-type/0cc0eba1996042c9bf9b60e150b429ae",
+      "Ordering": true,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://data-type/b58c153091c94c83aa35032aca0f7b89",
+      "Ordering": true,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://data-type/e26a8d91a9d7475bbc3b2a09f4743754",
+      "Ordering": true,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://document-type/7fd2972c35674c908de8b69b9c5cfd06",
+      "Ordering": true,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://template/0b22b7e9726c4ddb8285c77736542d0a",
+      "Ordering": true,
+      "Mode": 0
+    }
+  ],
+  "Name": "Person",
+  "Alias": "person",
+  "__type": "Umbraco.Deploy,Umbraco.Deploy.Artifacts.ContentType.DocumentTypeArtifact",
+  "__version": "3.4.2"
+}
