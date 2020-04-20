@@ -3,13 +3,6 @@
 @{
     Layout = "master.cshtml";
 }
-@helper SocialLink(string content, string service)
-{
-    if (!string.IsNullOrEmpty(content))
-    {
-        <a class="employee-grid__item__contact-item" href="http://@(service).com/@content">@service</a>
-    }
-}       
 
 @Html.Partial("~/Views/Partials/SectionHeader.cshtml")
 
@@ -27,8 +20,7 @@
         </nav>
         -->
         <div class="employee-grid">
-            @foreach (ContentModels.Person person in Model.Children)
-            {
+            @foreach (ContentModels.Person person in Model.Children){
 
                 <div class="employee-grid__item">
                     <div class="employee-grid__item__image" style="background-image: url('@person.Photo.Url')"></div>
