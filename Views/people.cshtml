@@ -1,4 +1,4 @@
-﻿@inherits Umbraco.Web.Mvc.UmbracoViewPage<ContentModels.People>
+﻿@inherits UmbracoViewPage<ContentModels.People>
 @using ContentModels = Umbraco.Web.PublishedModels;
 @{
     Layout = "master.cshtml";
@@ -31,10 +31,10 @@
                             <a href="mailto:@person.Email" class="employee-grid__item__email">@person.Email</a>
                         }
                         <div class="employee-grid__item__contact">
-                            @SocialLink(person.FacebookUsername, "Facebook")
-                            @SocialLink(person.TwitterUsername, "Twitter")
-                            @SocialLink(person.LinkedInUsername, "LinkedIn")
-                            @SocialLink(person.InstagramUsername, "Instagram")
+                            <h3 class="employee-grid__item__name">Facebook: @person.FacebookUsername</h3>
+                            <h3 class="employee-grid__item__name">Twitter: @person.TwitterUsername</h3>
+                            <h3 class="employee-grid__item__name">LinkedIn: @person.LinkedInUsername</h3>
+                            <h3 class="employee-grid__item__name">Instagram: @person.InstagramUsername</h3>
                         </div>
                     </div>
                 </div>
