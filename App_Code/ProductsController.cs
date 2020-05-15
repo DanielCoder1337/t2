@@ -29,7 +29,7 @@ namespace Umbraco8.Controllers
 				Category = productNode.Value<IEnumerable<string>>("category"),
 				Description = productNode.Value<string>("description"),
 				Price = productNode.Value<float>("price"),
-				ImageUrl = "http://localhost:7294" + productNode.Value<IPublishedContent>("photos").GetCropUrl(250, 250)
+				ImageUrl = "http://localhost:32604" + productNode.Value<IPublishedContent>("photos").GetCropUrl(250, 250)
 				});
 			}
 			return Ok(returnArray);
@@ -44,7 +44,7 @@ namespace Umbraco8.Controllers
 				Category = product.Value<IEnumerable<string>>("category"),
 				Description = product.Value<string>("description"),
 				Price = product.Value<float>("price"),
-				ImageUrl = "http://localhost:7294" + product.Value<IPublishedContent>("photos").GetCropUrl(375, 600)
+				ImageUrl = "http://localhost:32604" + product.Value<IPublishedContent>("photos").GetCropUrl(375, 600)
 			});
 		}
 	}

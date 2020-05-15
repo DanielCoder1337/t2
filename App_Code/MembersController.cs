@@ -32,7 +32,7 @@ namespace Umbraco8.Controllers
 				Facebook_username = person.Value<String>("facebookUsername"),
 				LinkedIn_username = person.Value<String>("linkedInUsername"),
 				Instagram_username = person.Value<String>("instagramUsername"),
-				ImageUrl = "http://localhost:7294" + person.Value<IPublishedContent>("photo").GetCropUrl(250, 250)
+				ImageUrl = "http://localhost:32604" + person.Value<IPublishedContent>("photo").GetCropUrl(250, 250)
 				});
 			}
 			return Ok(peopleArray);
@@ -48,7 +48,7 @@ namespace Umbraco8.Controllers
 				Facebook_username = person.Value<String>("facebookUsername"),
 				LinkedIn_username = person.Value<String>("linkedInUsername"),
 				Instagram_username = person.Value<String>("instagramUsername"),
-				ImageUrl = "http://localhost:7294" + person.Value<IPublishedContent>("photo").GetCropUrl(375, 600)
+				ImageUrl = "http://localhost:32604" + person.Value<IPublishedContent>("photo").GetCropUrl(375, 600)
 			});
 		}
 	}
